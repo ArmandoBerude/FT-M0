@@ -1,0 +1,31 @@
+div{
+    padding: 1em
+}
+
+img{
+    width: 400px
+}
+#thirdDiv{
+ width: 600px;
+ height: 500px;
+ background-color: cornflowerblue;
+ margin: 0 auto;
+ padding: 50px;
+ border: darkcyan;
+}
+#spanID{
+    font-size: 18px;
+    margin: 50px ;
+}
+body {
+    heigh:1500px;
+    background-image: url("http://cocinarte.co/wp-content/uploads/2015/08/ThinkstockPhotos-175124905.jpg");
+}
+.divclass {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 2px solid rgb(37, 5, 66);
+    /* IMPORTANTE */
+    text-align: center;
+  }
