@@ -102,13 +102,13 @@ function numeroMasGrande(numeros) {
   return maximo;
 }
 
-function tablaDelSeis(){
+function tablaDelSeis() {
   //return [0,6,12,18,24,30,36,42,48,54,60]
   var table = [];
   for (i = 0; i < 11; i++){
     table.push(6 * i);
     }
-    return table;
+    return table
 }
 
 

@@ -1,1 +1,1 @@
-Es un archivador donde se alamacena la información para ser usada despues
+Es un archivador donde se almacena la información para ser usada despues

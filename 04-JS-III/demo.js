@@ -2,7 +2,7 @@ var array = [1,2,3,4,5];
 var lista = ["Armando", "Jhon", "Andres", "jj"];
 
 array.push(lista)
-console.log(array)
+console.log(array.length)
 array.push('nuevo espacio')
 lista.push([0, 'clase de JS III'])
 array.push(lista)
@@ -77,9 +77,16 @@ console.log('xxxxxxOtro Ejercio')
     }
 
     console.log(nuevoarray)
- 
+    
+    console.log(888888888888888888)
 
+    var array = [1,2,3,4,5]
+    var lista = ['Armando', 'Jose']
 
+    for (let i = 0; i < array.length; i++) {
+        lista[i] =lista[i] + i        
+    }
+    console.log(lista)
 
 
 

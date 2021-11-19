@@ -1,0 +1,22 @@
+Un objeto es una colección de propiedades, y una propiedad es una asociación entre un nombre (o clave) y un valor. El valor de una propiedad puede ser una función, en cuyo caso la propiedad es conocida como un método
+For/in es un bucle que recorre las propiedades de un objeto
+En Javascript existen dos maneras de acceder a las propiedades o funciones de un objeto:
+var miMascota = {
+    "nombre": "Maggie",
+    "raza": "French Pooddle",
+    "edad": 2
+}
+
+Ahora, si queremos acceder a una propiedad del objeto podemos usar la notación del punto:
+
+console.log(miMascota.nombre); // Imprime en la consola "Maggie"
+Pero si hacemos lo siguiente:
+console.log(miMascota["nombre"]); // Imprime lo mismo que lo de arriba
+
+¿Por qué pasa esto? 
+En Javascript podemos acceder a las propiedades y/o funciones de un objeto usando cualquier notación: el punto . o los corchetes [] 
+
+Hay dos principales diferencias:
+
+Cuando usamos corchetes podemos acceder a propiedades que tienen un espacio o carácter no permitido en la notación de punto (por ejemplo, miMascota.numero de amigos no es válido, pero miMascota["numero de amigos"] sí lo es).
+Si queremos minificar nuestro código, la notación del punto no es válida... debemos usar la notación de corchetes.
