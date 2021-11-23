@@ -1,0 +1,2 @@
+Prototype es una propiedad que JavaScript nos da el cual hereda valores y si, ambos tiene esta propiedad pero en un objeto lo encontramos como Punto__proto__ y en una funcion como .Prototype Ejemplo:
+Un constructor es un método especial de una clase que se llama automáticamente siempre que se declara un objeto de esa clase. Su función es inicializar el objeto y sirve para asegurarnos que los objetos siempre contengan valores válidos.
