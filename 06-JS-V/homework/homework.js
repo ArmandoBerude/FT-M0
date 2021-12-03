@@ -43,6 +43,7 @@ function agregarStringInvertida() {
     return stringInvertida
   }
 }
+//this.split('').reverse().join('')
 
 // ---------------------------------------------------------------------------//
   //Crea el constructor de la clase "Persona"
@@ -62,16 +63,18 @@ function agregarStringInvertida() {
       this.apellido = apellido
       this.edad = edad
       this.domicilio = domicilio
-      this.detalle = function(){
-        return {
+    }
+
+    detalle (){
+      let objeto = {
           Nombre: this.nombre,
           Apellido: this.apellido,
           Edad: this.edad,
           domicilio: this.domicilio
         }
+        return this
       }
     }
-  }
 
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {

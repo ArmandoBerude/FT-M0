@@ -5,6 +5,7 @@ function EstudianteHenry(nombreEstudiante, apellidoEstudiante){
     this.materias = ['hmtl', 'css', 'git']
 }
 let estudiante1 = new EstudianteHenry('Armando', 'Bermudez');
+// el new crea un objeto vacio y despues que va a tener: Nombre?, apellido? si me las enviaron? entonces se las asigna
 let estudiante2 = new EstudianteHenry('Eliana', 'Pulido');
 let estudiante3 = new EstudianteHenry('Juan', 'Bermudez');
 let estudiante4 = new EstudianteHenry();
@@ -82,3 +83,4 @@ class EstudianteGraduado extends EstudianteHenryClass{
 let estudianteGraduado1 = new EstudianteGraduado('Armando Juanjo', 'Bermudez Pulido')
 console.log(estudianteGraduado1)
 console.log(estudianteGraduado1.postularseParaTrabajo())
+

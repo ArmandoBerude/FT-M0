@@ -104,8 +104,8 @@ function numeroMasGrande(numeros) {
 
 function tablaDelSeis() {
   //return [0,6,12,18,24,30,36,42,48,54,60]
-  var table = [];
-  for (i = 0; i < 11; i++){
+  let table = [];
+  for (i = 0; i <= 10; i++){
     table.push(6 * i);
     }
     return table
