@@ -27,7 +27,8 @@ console.log(upperCaseWords + lowerCaseWords)
 console.log('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 
 let nuevoArray = []
-nuevoArray = for (let i = 0; i < arreglo1.length; i++) {
+let arreglo1 = []
+for (let i = 0; i < arreglo1.length; i++) {
   for (let j = 0; j < arreglo2.length; j++) {      
     if(arreglo1 === arreglo2) console.log(nuevoArray)
   }
